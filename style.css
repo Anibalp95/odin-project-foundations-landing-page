@@ -158,11 +158,11 @@ a {
 .cta-section {
     color: #F9FAF8;
     margin: 128px;
-    padding: 32px 0;
+    padding: 32px 64px;
     border-radius: 8px;
     background-color: #3882F6;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
