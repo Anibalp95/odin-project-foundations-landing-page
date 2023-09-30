@@ -133,3 +133,24 @@ a {
     width: 128px;
     text-align: center;
 }
+
+.quote-section {
+    padding: 64px 164px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-section .quote {
+    color: #51565e;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0px;
+}
+
+.quote-section .author {
+    color: #1F2937;
+    font-weight: 900;
+    align-self: flex-end;
+}
