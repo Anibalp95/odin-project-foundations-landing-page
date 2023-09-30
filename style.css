@@ -11,10 +11,23 @@ a {
 }
 
 .header,
-.content,
+.hero-section,
+.information-section,
+.cta-section,
+.quote-section,
+.footer {
+    padding: 0px 64px;
+}
+
+.header,
+.hero-section,
 .footer {
     background-color: #1F2937;
-    padding: 0px 64px;
+}
+
+.information-section,
+.cta-section {
+    background-color: #F9FAF8;
 }
 
 .header {
@@ -77,4 +90,8 @@ a {
     padding: 8px 32px;
     border-radius: 6px;
     align-self: flex-start;
+}
+
+.information-section {
+    background-color: #F9FAF8;
 }
